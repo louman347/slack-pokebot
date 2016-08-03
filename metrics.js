@@ -53,6 +53,9 @@ function shouldReport(p) {
   const name = p.pokemon.name;
   let result = null;
   newP.rarity = rarity[p.pokemon.id] || 'common';
+  if (newP.rarity == 'common') {
+      return null;
+  }
   if (!dataset[name]) {
     dataset[name] = { sensitivity: InitalSenstivity, lastSeen: Date.now() };
     triggerSaveDataSet();

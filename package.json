@@ -14,14 +14,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kmoe/slack-pokebot.git"
+    "url": "git+https://github.com/louman347/slack-pokebot.git"
   },
-  "author": "Katy Moe <katy@katy.moe> (http://katy.moe)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/kmoe/slack-pokebot/issues"
-  },
-  "homepage": "https://github.com/kmoe/slack-pokebot#readme",
+  "author": "Louie Bertoncin",
   "dependencies": {
     "geocoder": "^0.2.2",
     "geolib": "^2.0.21",
